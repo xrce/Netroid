@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+ls -a ~/.shortcuts/
+read -p " Shortcut to remove : " scname;
+
+echo -e "$red [!]$white Removing shortcut"
+rm ~/.shortcuts/"$scname"
+echo -e "$okegreen [*]$white Done"

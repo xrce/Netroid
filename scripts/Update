@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+nh -r 'apt update'
+nh -r 'apt full-upgrade --autoremove -y'
