@@ -1,3 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/sh
 
-nh kex &
+nh "lynis"
+nh

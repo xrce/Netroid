@@ -14,8 +14,8 @@ read -p " Command to launch : " cmd;
 
 echo -e "$okegreen [*]$white Creating shortcut"
 cp ~/.bin/temp ~/.shortcuts/"$scname"
-echo "nh -r '$cmd'" >> ~/.shortcuts/"$scname"
-echo "nh -r" >> ~/.shortcuts/"$scname"
+echo "nh '$cmd'" >> ~/.shortcuts/"$scname"
+echo "nh" >> ~/.shortcuts/"$scname"
 echo -e "$okegreen [*]$white Running Chmod"
 chmod +x ~/.shortcuts/"$scname"
 echo -e "$okegreen [*]$white Done creating shortcut"

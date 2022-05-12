@@ -53,6 +53,8 @@ function install() {
     echo -e "$okegreen [*]$white Copying Scripts"
     cp scripts/* ~/.shortcuts/
     cp bin/* ~/.bin/
+    echo -e "$okegreen [*]$white Copying Icons"
+    cp -r 'Netroid Icons' ~/.shortcuts/icons
     echo -e "$okegreen [*]$white Running Chmod"
     chmod +x ~/.shortcuts/*
     chmod +x ~/.bin/
@@ -77,4 +79,3 @@ echo -e "$okegreen [*]$white update          $yellow #$white To update Nethunter
 echo -e ""
 echo -e "$okegreen [*]$white I recommend you to use 3rd party launcher"
 echo -e "$okegreen [*]$white Custom Icons available on 'Netroid Icons' folder"
-echo -e "$okegreen [*]$white For now, you have to change shortcut icons by yourself"
