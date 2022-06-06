@@ -54,4 +54,4 @@
 - [x] Fixing script
 - [ ] Automatically add shortcuts to homescreen and change icon
 - [x] Custom icon packs
-- [ ] Run GUI aplication from shortcuts
+- [ ] Run GUI application from shortcuts
